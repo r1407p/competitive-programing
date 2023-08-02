@@ -1,0 +1,3 @@
+
+            draw[j] = true;
+        }else{
