@@ -9,13 +9,9 @@
 
 | Contest                   | Date          | Rank | Solved/Total | Penalty |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-<<<<<<< HEAD
 | 2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest| 8/4         |  - | 3/10 | 230 |A|    |   |D   |    |    |G   |   |   |    |    |    |    |    |
 | 2017-2018 ACM-ICPC Pacific Northwest Regional Contest (Div. 1)| 8/3         | - | 5/13 | - |A|   |C   |   |E   |F  |   |   | |J   |  |L   |   |  |
 |2017-2018 ACM-ICPC Southeast Regional Contest (Div. 1)| 8/1       | - | 2/11 | - | |    |   |    |    |    |   |   |   |J   |   |L   |   |   |
-=======
-| 2017-2018 ACM-ICPC Pacific Northwest Regional Contest (Div. 1)| 8/3          | - | 5/13 | Penalty |A|   |C   |    |E   |   |    |   |   |J   |   |L   |   |   |
->>>>>>> 5d4be1c399873c4acd423c99279188d00951316b
 
 
 # codeforces round
