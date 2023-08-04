@@ -35,21 +35,18 @@ typedef vector<str> vs;
 //ifstream fin("test.in");
 //ofstream fout("test.out");
 void _solve(){
-    double n,x,v;
-    cin >> n>>x>>v;
-    vector<vector<double>> nums(n);
-    double move =0 ;
-    for(int i =0;i<n;i++){
-        double a,b,c;
-        cin >>a>>b>>c;
-        nums[i] = {a,b,c};
-        move+=(b-a)*c;
+    int n;
+    cin >> n;
+    vvi edges(n+1);;
+    for(int i =1;i<n;i++){
+        int a,b;
+        cin >> a>>b;
+        edges[a].pb(b);
+        edges[b].pb(a);
     }
-    if(fabs(move/x)>v){
-        cout << "Too hard"<<endl;
-    }else{
-        printf("%.3f\n",x/sqrt(v*v-move/x*move/x));
-    }
+    vpii res(n);
+    
+
 }
 signed main(){
     ios_base::sync_with_stdio(false);

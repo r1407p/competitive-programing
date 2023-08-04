@@ -4,7 +4,7 @@
 using namespace std;
 
 
-//#define int long long 
+#define int long long 
 #define endl '\n'
 #define eb emplace_back
 #define pb push_back
@@ -35,21 +35,20 @@ typedef vector<str> vs;
 //ifstream fin("test.in");
 //ofstream fout("test.out");
 void _solve(){
-    double n,x,v;
-    cin >> n>>x>>v;
-    vector<vector<double>> nums(n);
-    double move =0 ;
-    for(int i =0;i<n;i++){
-        double a,b,c;
-        cin >>a>>b>>c;
-        nums[i] = {a,b,c};
-        move+=(b-a)*c;
+    int n,k;
+    cin >> n >>k;
+    int res = INT_MAX;
+    for(int i = 1;i<k;i++){
+        
+        int temp = i;
+        int now = 1;
+        while(temp< n-(k-i)){
+            now++;
+            temp +=min(temp,(n-temp)/2);
+        }
+        res = min(now,res);
     }
-    if(fabs(move/x)>v){
-        cout << "Too hard"<<endl;
-    }else{
-        printf("%.3f\n",x/sqrt(v*v-move/x*move/x));
-    }
+    cout << res<<endl;
 }
 signed main(){
     ios_base::sync_with_stdio(false);

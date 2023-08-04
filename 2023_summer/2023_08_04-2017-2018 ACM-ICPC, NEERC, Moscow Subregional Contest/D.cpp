@@ -2,9 +2,9 @@
  
  
 using namespace std;
-
-
-//#define int long long 
+ 
+ 
+#define int long long 
 #define endl '\n'
 #define eb emplace_back
 #define pb push_back
@@ -35,20 +35,34 @@ typedef vector<str> vs;
 //ifstream fin("test.in");
 //ofstream fout("test.out");
 void _solve(){
-    double n,x,v;
-    cin >> n>>x>>v;
-    vector<vector<double>> nums(n);
-    double move =0 ;
+    int n;
+    cin >> n;
+    vector<__int128> temp;
     for(int i =0;i<n;i++){
-        double a,b,c;
-        cin >>a>>b>>c;
-        nums[i] = {a,b,c};
-        move+=(b-a)*c;
-    }
-    if(fabs(move/x)>v){
-        cout << "Too hard"<<endl;
-    }else{
-        printf("%.3f\n",x/sqrt(v*v-move/x*move/x));
+        int t;
+        cin >> t;
+        if(t<128){
+            __int128 res = 0;
+            __int128 now = 1;
+            for(int i =0;i<temp.size();i++){
+                res= res+now*(temp[i]-128);
+                now= now*128;
+            }
+            res+=now*t;
+            // cout <<res<<" ";
+            loli ret;
+            if(res%2==0){
+                ret = res/2;
+            }else{
+                res+=1;
+                res/=-2;
+                ret = res;
+            }
+            cout << ret<< endl;
+            temp.clear();
+        }else{
+            temp.pb(t);
+        }
     }
 }
 signed main(){
@@ -59,5 +73,5 @@ signed main(){
     while(_--){
         _solve();   
     }
-
+ 
 }
