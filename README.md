@@ -9,7 +9,7 @@
 
 | Contest                   | Date          | Rank | Solved/Total | Penalty |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| 2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest| 8/4         |  - | 3/10 | 230 |A|    |   |D   |    |    |G   |   |   |    |    |    |    |    |
+| 2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest| 8/4         |  - | 3/10 | 230 |A|    |   |D   |    |    |G   |**H**|   |    |    |    |    |    |
 | 2017-2018 ACM-ICPC Pacific Northwest Regional Contest (Div. 1)| 8/3         | - | 5/13 | - |A|   |C   |   |E   |F  |   |   | |J   |  |L   |   |  |
 |2017-2018 ACM-ICPC Southeast Regional Contest (Div. 1)| 8/1       | - | 2/11 | - | |    |   |    |    |    |   |   |   |J   |   |L   |   |   |
 
@@ -18,7 +18,7 @@
 
 | Contest                   | Date          | Rank | Solved/Total | score  |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Codeforces Round 890 (Div. 2)              | 8/5          | 3206 | 3/6 | 1722  |A|   B|C   |   |   |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 890 (Div. 2)       | 8/5          | 3206 | 3/6 | 1722  |A|   B|C   |   |   |   |   |   |   |   |   |   |   |   |
 
 
 

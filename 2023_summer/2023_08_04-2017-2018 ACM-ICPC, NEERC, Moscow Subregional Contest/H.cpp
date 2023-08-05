@@ -4,7 +4,7 @@
 using namespace std;
 
 
-//#define int long long 
+#define int long long 
 #define endl '\n'
 #define eb emplace_back
 #define pb push_back
@@ -55,7 +55,7 @@ void _solve(){
     }
     int mx = 0;
     mx = nums[0][0]*(nums[0][1]+nums[0][0]+nums[0][1]-1)/2;
-    // cout << mx <<endl;
+    //  cout << mn <<mx<<endl;
     for(int i =1;i<m;i++){
         int length = nums[i][0]-nums[i-1][0];
         int move = nums[i][1]-nums[i-1][1];
@@ -64,16 +64,24 @@ void _solve(){
         int stay = (length-abs(move))%2;
         if(move>0)up+=move;
         else down -=move;
-
+        // cout << up << " "<<down<<endl;;
         int now = nums[i-1][1];
-        mx += ((now+1)+(now+up))*up;
+        // cout << mx <<endl;
+        mx += ((now+1)+(now+up))*up/2;
+        // cout << mx<<endl;
         mx += stay*(now+up);
+        // cout << mx<<endl;
         mx += (now+up-1+now+up-down)*down/2;
-
-        mn += ((now-1)+(now-down))*down;
-        mn += stay*(now-down);
-        mn += (now-down+1 + now-down+up)*up/2;
-
+        // cout << mx<<endl;
+        if(down <= now){
+            mn += ((now-1)+(now-down))*down/2;
+            mn += stay*(now-down);
+            mn += (now-down+1 + now-down+up)*up/2;
+        }
+        else{
+            mn += (now-1)*(now)/2;
+            mn += (nums[i][1])*(nums[i][1]+1)/2;
+        }
     }
     int now = nums[m-1][1];
     int length = n-nums[m-1][0];
@@ -85,6 +93,7 @@ void _solve(){
     }else{
         mn += (now-1)*now/2;
     }
+    // cout << mx <<" "<<mn <<endl;
     if(mx>=t && t>=mn){
         cout << "Yes\n";
     }else{
