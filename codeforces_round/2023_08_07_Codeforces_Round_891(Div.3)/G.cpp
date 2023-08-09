@@ -4,7 +4,7 @@
 using namespace std;
 
 
-//#define int long long 
+#define int long long 
 #define endl '\n'
 #define eb emplace_back
 #define pb push_back
@@ -31,69 +31,82 @@ typedef vector<bool> vb;
 typedef vector<vb> vvb;
 typedef vector<str> vs;
 #define maxn 200005
+#define mod 998244353
 //int a[maxn];
 //ifstream fin("test.in");
 //ofstream fout("test.out");
-int dfs(int start,vb &used,vvpii &edges,vector<map<int,pii>>& e){
-    // bool flag = true;
-    int res = 1;
-    for(int i = 0;i<edges[start].size();i++){
-        int to = edges[start][i].first;
-        if(!used[to]){
-            // flag = false;
-            used[to] = true;
-            e[start][to].second = dfs(to,used,edges,e);
-            cout << start <<" "<<to <<" "<< e[start][to].second<<endl;
-            res+=e[start][to].second;
+class DSU{
+public:
+
+    vector<int> boss;
+    vector<int> size;
+    DSU(int n){
+        boss.resize(n+1,0);
+        size.resize(n+1,1);
+        for(int i =0;i<=n;i++)boss[i] = i;
+    }
+    int get(int i){
+        if(i == boss[i])return i;
+        return boss[i] = get(boss[i]);
+    }
+    int get_size(int i){
+        return size[get(i)];
+    }
+    void merge(int i,int j){
+        int a = get(i);
+        int b = get(j);
+
+        if(a!=b){
+            boss[a] = b;
+            boss[i] = b;
+            boss[j] = b;
+            size[b] +=size[a];
         }
     }
-    return res;
+};
 
+int mpow(int a,int b){
+    if(a==0)return 0;
+    int res = 1;
+    int basic = a;
+    while(b){
+        if(b%2){
+            res*=basic;
+            res%=mod;
+        }
+        basic*=basic;
+        basic%=mod;
+        b/=2;
+    }
+    // cout <<a<<" "<<b<<" "<<res <<" ";
+    return res;
 }
 void _solve(){
     int n,s;
     cin >> n>>s;
-    vvpii edge(n+1);
-    // cout << n << s;
-    vector<map<int,pii>> e(n+1);
-    vvi nums(n-1);
-    // edges = n*(n-1)/2 - (n-1);
+    vvi edges(n-1);
     for(int i =0;i<n-1;i++){
         int a,b,c;
         cin >> a >>b>> c;
-        nums[i] = {a,b,c};
-        edge[a].pb({b,c});
-        edge[b].pb({a,c});
-        e[a][b] = {c,-1};
-        e[b][a] = {c,-1};
+        edges[i] = {c,a,b};
     }
-    int start;
-    vb used(n+1);
-    for(int i =1;i<n;i++){
-        if(edge[i].size()==1){
-            start = i;
-            break;
-        }
+    sort(ALL(edges));
+    DSU dsu(n);
+    int ans = 1;
+    for(int i =0;i<n-1;i++){
+        int a = edges[i][1];
+        int b = edges[i][2];
+        int c = edges[i][0];
+        int sz_a = dsu.get_size(a);
+        int sz_b = dsu.get_size(b);
+        dsu.merge(a,b);
+        int con = sz_a*sz_b-1;
+        int num = s-c+1;
+        ans *= mpow(num,con);
+        // cout << a<<b<<c;
+        ans %= mod;
     }
-    cout << start<<endl;
-    used[start] = true;
-    dfs(start,used,edge, e);
-    for(int i =0;i<n;i++){
-        int a = nums[i][0];
-        int b = nums[i][1];
-        int c = nums[i][2];
-        cout << a<<" "<<b <<endl;
-        cout << e[a][b].first<<" "<<e[a][b].second<<endl;;
-        cout << e[b][a].first<<" "<<e[b][a].second<<endl;;
-        cout <<"-----------"<<endl;
-    }
-
-
-
-
-
-
-
+    cout <<ans <<endl;
 }
 signed main(){
     // ios_base::sync_with_stdio(false);
