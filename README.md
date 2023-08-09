@@ -18,7 +18,7 @@
 
 | Contest                   | Date          | Rank | Solved/Total | score  |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Codeforces Round 891 (Div. 3)       | 8/7          | 600 | 6/7 | (217)penalty  |A|   B|C   | D  |E   |F   |   |   |   |   |   |   |   |   |
+| Codeforces Round 891 (Div. 3)       | 8/7          | 564 | 6/7 | (217)penalty  |A|   B|C   | D  |E   |F   | **G**  |   |   |   |   |   |   |   |
 | Codeforces Round 890 (Div. 2)       | 8/5          | 3206 | 3/6 | 1722  |A|   B|C   |   |   |   |   |   |   |   |   |   |   |   |
 
 
