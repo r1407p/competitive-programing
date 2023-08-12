@@ -18,11 +18,12 @@
 
 | Contest                   | Date          | Rank | Solved/Total | penalty  |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Codeforces Round 892 (Div. 2)       | 2023/08/12          |   | 3/6 |2110(score)    |A|   B|C   |   |   |   |  |   |   |   |   |   |   |   |
 | Codeforces Round 891 (Div. 3)       | 2023/08/07          | 197 | 6/7 | 217  |A|   B|C   | D  |E   |F   | **G**  |   |   |   |   |   |   |   |
 | Codeforces Round 890 (Div. 2)       | 2023/08/05          | 2908 | 3/6 | 1722  |A|   B|C   | **D**  | **E** |   |   |   |   |   |   |   |   |   |
-| Educational Codeforces Round 152 (Rated for Div. 2)       |2023/07/27          | 2362 | 3/6 | 1722  |A|   B|C   | **D**  | **E** |   |   |   |   |   |   |   |   |   |
-| Codeforces Round 888 (Div. 3)      | 2023/07/25          | 3173	 | 4/6 | 1722  |A|   B|C   | **D**  | **E** |   |   |   |   |   |   |   |   |   |
-| Codeforces Round 885 (Div. 2)       | 2023/07/16          | 2692 | 2/6 | 1722  |A|   B|C   | **D**  | **E** |   |   |   |   |   |   |   |   |   |
+| Educational Codeforces Round 152 (Rated for Div. 2)       |2023/07/27          | 2362 | 3/6 |   |A|   B|C   |  |  |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 888 (Div. 3)      | 2023/07/25          | 3173	 | 4/6 |    |A|   B|C   | D  |  |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 885 (Div. 2)       | 2023/07/16          | 2692 | 2/6 |   |A|   B|    |   |   |   |   |   |   |   |   |   |   |   |
 | Codeforces Round 884 (Div. 1 + Div. 2)      | 2023/07/11          | 7194 | 2/6 | 1428(score)  |A|   B|    |    | * |   |   |   |   |   |   |   |   |   |
 | Codeforces Round 883 (Div. 3)       | 2023/07/07          | 2868 | 4/6 | 148	  |A|   B|    | D  | E |   |   |   |   |   |   |   |   |   |
 | Codeforces Round 882 (Div. 2)       | 2023/07/06          | 	2274(score)	 | 3/6 | 2274(score)  |A|   B| C   |   |  |   |   |   |   |   |   |   |   |   |
