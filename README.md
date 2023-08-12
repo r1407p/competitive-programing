@@ -16,10 +16,18 @@
 
 # codeforces round
 
-| Contest                   | Date          | Rank | Solved/Total | score  |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
+| Contest                   | Date          | Rank | Solved/Total | penalty  |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Codeforces Round 891 (Div. 3)       | 8/7          | 564 | 6/7 | (217)penalty  |A|   B|C   | D  |E   |F   | **G**  |   |   |   |   |   |   |   |
-| Codeforces Round 890 (Div. 2)       | 8/5          | 3206 | 3/6 | 1722  |A|   B|C   | **D**  | **E** |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 891 (Div. 3)       | 2023/08/07          | 197 | 6/7 | 217  |A|   B|C   | D  |E   |F   | **G**  |   |   |   |   |   |   |   |
+| Codeforces Round 890 (Div. 2)       | 2023/08/05          | 2908 | 3/6 | 1722  |A|   B|C   | **D**  | **E** |   |   |   |   |   |   |   |   |   |
+| Educational Codeforces Round 152 (Rated for Div. 2)       |2023/07/27          | 2362 | 3/6 | 1722  |A|   B|C   | **D**  | **E** |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 888 (Div. 3)      | 2023/07/25          | 3173	 | 4/6 | 1722  |A|   B|C   | **D**  | **E** |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 885 (Div. 2)       | 2023/07/16          | 2692 | 2/6 | 1722  |A|   B|C   | **D**  | **E** |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 884 (Div. 1 + Div. 2)      | 2023/07/11          | 7194 | 2/6 | 1428(score)  |A|   B|    |    | * |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 883 (Div. 3)       | 2023/07/07          | 2868 | 4/6 | 148	  |A|   B|    | D  | E |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 882 (Div. 2)       | 2023/07/06          | 	2274(score)	 | 3/6 | 2274(score)  |A|   B| C   |   |  |   |   |   |   |   |   |   |   |   |
+| 	Educational Codeforces Round 139 (Rated for Div. 2)       | 2022/12/12          | 1618	 | 3/6 | 41  |A |   B| C   |   |  |   |   |   |   |   |   |   |   |   |
+| Codeforces Round 823 (Div. 2)       | 2022/09/25         | 2921 | 2/6 | 1634(score)  |A|    |C   |   | **E** |   |   |   |   |   |   |   |   |   |
 
 
 
