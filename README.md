@@ -12,7 +12,7 @@
 | 2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest| 8/4         |  - | 3/10 | 230 |A|    |   |D   |    |    |G   |**H**|   |    |    |    |    |    |
 | 2017-2018 ACM-ICPC Pacific Northwest Regional Contest (Div. 1)| 8/3         | - | 5/13 | - |A|   |C   |   |E   |F  |   |   | |J   |  |L   |   |  |
 |2017-2018 ACM-ICPC Southeast Regional Contest (Div. 1)| 8/1       | - | 2/11 | - | |    |   |    |    |    |   |   |   |J   |   |L   |   |   |
-
+|22017-2018 ACM-ICPC, Central Europe Regional Contest (CERC 17)| 8/1       | - | 2/11 | - | A|    |   |    |    |    |   |   |   |J   |   | |   |   |
 
 # codeforces round
 
