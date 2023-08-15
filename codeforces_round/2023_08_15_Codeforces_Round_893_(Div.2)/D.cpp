@@ -34,15 +34,28 @@ typedef vector<str> vs;
 //int a[maxn];
 //ifstream fin("test.in");
 //ofstream fout("test.out");
-void _solve(){
-    int n;
-    cin >> n;
-    vvi nums(n,vi(4));
-    for(int i =0;i,n;i++){
-        cin >> nums[i][0]>>nums[i][1]>>nums[i][2]>>nums[i][3];
+int n,k;
+
+int cal(int a,string temp){
+
+
+}
+void __solve(int now,string s){  
+    int res = 0;
+    for(int i =0;i<n;i++){
+        string temp = s;
+
+        res = max(res,cal(now,temp));
     }
-    
-    sort(ALL(nums));
+}
+void _solve(){
+    string s;    
+    cin >> n>>k;
+    cin >> s;
+    cout << n <<" ";
+    for(int i = 2;i<=n;i++){
+        __solve(i,s);
+    }cout << endl;
 }
 signed main(){
     ios_base::sync_with_stdio(false);

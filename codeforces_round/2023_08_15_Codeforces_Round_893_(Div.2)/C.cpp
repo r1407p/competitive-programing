@@ -2,8 +2,8 @@
  
  
 using namespace std;
-
-
+ 
+ 
 //#define int long long 
 #define endl '\n'
 #define eb emplace_back
@@ -34,23 +34,51 @@ typedef vector<str> vs;
 //int a[maxn];
 //ifstream fin("test.in");
 //ofstream fout("test.out");
-void _solve(){
+    
     int n;
-    cin >> n;
-    vvi nums(n,vi(4));
-    for(int i =0;i,n;i++){
-        cin >> nums[i][0]>>nums[i][1]>>nums[i][2]>>nums[i][3];
+void dfs(int start,vi &res,vi&used,vvi&nums){
+    
+    used[start]  = true;
+    if(start<=n)
+        res.pb(start);
+    for(auto to : nums[start]){
+        if(!used[to]){
+            dfs(to,res,used,nums);   
+            break; 
+        }
     }
     
-    sort(ALL(nums));
+}
+void _solve(){
+ 
+    cin >> n;
+    vi res;
+    vi used(n+1+n);
+    vvi nums(n+1+n);
+    
+    for(int i = 1;i<=n;i++){
+        for(int j = i;j<=n;j+=i){
+            nums[j].pb(n+i);
+            nums[n+i].pb(j);
+        }
+    }
+    for(int i = 1;i<=n;i++){
+        if(!used[i]){
+            dfs(i,res,used,nums);
+        }
+    }
+    for(int i = 0;i<n;i++){
+        cout <<res[i]<<" ";
+    }cout << endl;
+    
 }
 signed main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0);
     int _ = 1;
-    // cin >>_;
+    cin >>_;
     while(_--){
         _solve();   
     }
-
+ 
 }

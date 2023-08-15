@@ -35,20 +35,20 @@ typedef vector<str> vs;
 //ifstream fin("test.in");
 //ofstream fout("test.out");
 void _solve(){
-    int n;
-    cin >> n;
-    vvi nums(n,vi(4));
-    for(int i =0;i,n;i++){
-        cin >> nums[i][0]>>nums[i][1]>>nums[i][2]>>nums[i][3];
+    int a,b,c;
+    cin >> a>>b>>c;
+    a+=c%2;
+    if(a<=b){
+        cout << "Second\n";
+    }else{
+        cout << "First\n";
     }
-    
-    sort(ALL(nums));
 }
 signed main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0);
     int _ = 1;
-    // cin >>_;
+    cin >>_;
     while(_--){
         _solve();   
     }

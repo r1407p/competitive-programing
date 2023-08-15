@@ -35,6 +35,11 @@ typedef vector<str> vs;
 //ifstream fin("test.in");
 //ofstream fout("test.out");
 void _solve(){
+    int n, m, k;
+    for(int i  =0;i<n;i++){
+        int x1,y1,x2,y2;
+        cin >> x1>>y1>>x2>>y2;
+    }
 /*
 B A B A C
 A C A C B
