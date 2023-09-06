@@ -34,6 +34,9 @@ typedef vector<str> vs;
 //int a[maxn];
 //ifstream fin("test.in");
 //ofstream fout("test.out");
+double win_rate(int x,int y){
+    return ((double)x)/(x+y);
+}
 void _solve(){
     int n;
     cin >> n;
@@ -47,6 +50,7 @@ void _solve(){
     }
     sort(rALL(nums));
     nums.pb(target);
+    reverse(ALL(nums));
     vi nn;
     if(pow(2,((int)log2(n)))!=n){
         int temp = pow(2,((int)log2(n)));
