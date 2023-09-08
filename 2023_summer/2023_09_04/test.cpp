@@ -12,7 +12,7 @@ inline double win(int x,int y){
 inline void cal(int x){
     int l=x<<1,r=x<<1|1;
     for(int _=0;_<2;_++){
-        for(vector<P>::iterator i=f[l].begin();i!=f[l].end();i++){
+        for(vector<P>::iterator i=f[l].begin(0);i!=f[l].end();i++){
             int A=i->first;
             double B=0;
             for(vector<P>::iterator j=f[r].begin();j!=f[r].end();j++){

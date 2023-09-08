@@ -32,7 +32,7 @@ typedef vector<vb> vvb;
 typedef vector<str> vs;
 #define maxn 200005
 //int a[maxn];
-//ifstream fin("test.in");
+ifstream fin("test.in");
 //ofstream fout("test.out");
 void _solve(){
     int n;
