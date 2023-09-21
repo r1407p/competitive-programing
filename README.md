@@ -2,6 +2,7 @@
 
 | Contest                   | Date          | Rank | Solved/Total | Penalty |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|
+| TOPC 2023 | 9/16 | 31  | 6/12   |  299  |A| B  |**C**|   | E | | |   | |J |  K|L|   |   |
 | TTCPC 2023 | 5/13 | 5  | 5/12   |  -  |**A**|   |C|   | E |**F**| G |   |I |J |   |**L**|   |   |
 | TOPC 2022 | 10/22 | 46 | 3/9 | 231 |   |   | C | D |   | F |   |**H**|   |   |   |   |   |   |
 
@@ -9,6 +10,7 @@
 
 | Contest                   | Date          | Rank | Solved/Total | Penalty |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 2019-2020 ICPC East Central North America Regional Contest (ECNA 2019)| 9/21         |  - | 5/11 | 601 |A|    |   |  | E   |F    |G   |H|   |    |    |    |    |    |
 | 2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest| 8/4         |  - | 3/10 | 230 |A|    |   |D   |    |    |G   |**H**|   |    |    |    |    |    |
 | 2017-2018 ACM-ICPC Pacific Northwest Regional Contest (Div. 1)| 8/3         | - | 5/13 | - |A|   |C   |   |E   |F  |   |   | |J   |  |L   |   |  |
 |2017-2018 ACM-ICPC Southeast Regional Contest (Div. 1)| 8/1       | - | 2/11 | - | |    |   |    |    |    |   |   |   |J   |   |L   |   |   |
