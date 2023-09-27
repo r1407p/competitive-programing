@@ -10,6 +10,7 @@
 
 | Contest                   | Date          | Rank | Solved/Total | Penalty |A|   B|C   |D   |E   |F   |G   |H   |I   |J   |K   |L   |M   |N   |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Al-Baath Collegiate Programming Contest 2023| 9/27         |  - | 8/13 | 929 |A|  B  |   |D  |   |F    |G   | |   |    |  K  |L    |M    |    |
 | 2019-2020 ICPC East Central North America Regional Contest (ECNA 2019)| 9/21         |  - | 5/11 | 601 |A|    |   |  | E   |F    |G   |H|   |    |    |    |    |    |
 | 2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest| 8/4         |  - | 3/10 | 230 |A|    |   |D   |    |    |G   |**H**|   |    |    |    |    |    |
 | 2017-2018 ACM-ICPC Pacific Northwest Regional Contest (Div. 1)| 8/3         | - | 5/13 | - |A|   |C   |   |E   |F  |   |   | |J   |  |L   |   |  |
